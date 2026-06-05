@@ -17,11 +17,11 @@ The required input parameters are:
 - Vs30: time-averaged shear-wave velocity in the upper 30 m (m/s)
 - Address, Event Code, and Station Code can be left blank.
 
-  After entering all input parameters, run the **Run_prediction.py** script to generate predictions. Users should not modify the code in this script.
-  The prediction results will be exported to **Prediction_result.xlsx**. Results are provided in both natural logarithmic form and original units:
+After entering all input parameters, run the **Run_prediction.py** script to generate predictions. Users should not modify the code in this script.
+The prediction results will be exported to **Prediction_result.xlsx**. Results are provided in both natural logarithmic form and original units:
 - Ds5-75, Ds5-95: seconds (s)
 - AI, CAV, PGV: m/s
 - PGA, PSA: m/s²
 
-  Example prediction: Mw = 5.2,	Event depth = 5,	Tectonic label = 2,	Focal label = 2,	Region = 0,	Rrup = 51.98894,	CS = 3.93, VS30 = 241
-  ---> ln_Ds5-75 = 1.854894876,	ln_Ds5-95 = 2.868935823,	ln_AI = -5.366474152,	ln_CAV = -0.498953491,	ln_PGA = -1.62449801,	ln_PGV = -4.741275311,...
+Example prediction: Mw = 5.2,	Event depth = 5,	Tectonic label = 2,	Focal label = 2,	Region = 0,	Rrup = 51.98894,	CS = 3.93, VS30 = 241
+---> ln_Ds5-75 = 1.854894876,	ln_Ds5-95 = 2.868935823,	ln_AI = -5.366474152,	ln_CAV = -0.498953491,	ln_PGA = -1.62449801,	ln_PGV = -4.741275311,...
