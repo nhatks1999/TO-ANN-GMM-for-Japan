@@ -1,4 +1,4 @@
-<img width="73" height="23" alt="image" src="https://github.com/user-attachments/assets/06aae942-6428-4884-a819-afe78ce0d904" /># TO-ANN-GMM-for-Japan
+# TO-ANN-GMM-for-Japan
 This repository is used to run the TO-ANN ground-motion prediction model. It contains the following files:
 - The "fold_models" folder: contains the five trained fold models and corresponding input scalers.
 - The "New_Data.csv": input file for prediction.
